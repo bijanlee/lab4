@@ -23,6 +23,11 @@ app.get("/venus", function (req, res) {
     //res.send("This will be Venus web page!");
 })
 
+app.get("/about", function (req, res) {
+    res.render("about.html");
+    //res.send("This will be Venus web page!");
+})
+
 app.listen(process.env.PORT, process.env.IP, function () {
     console.log("Running Express Server...");
 });
