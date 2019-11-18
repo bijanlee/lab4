@@ -23,7 +23,7 @@ app.get("/venus", function (req, res) {
     //res.send("This will be Venus web page!");
 })
 
-app.listen(provess.env.PORT, process.env.IP, function () {
+app.listen(process.env.PORT, process.env.IP, function () {
     console.log("Running Express Server...");
 });
 
